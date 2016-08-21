@@ -14,6 +14,7 @@ Please check the requirements [listed](http://facebook.github.io/react-native/do
 	```
 	npm install
 	```
+
 ## For iOS
 
 You need to have Xcode installed. Then go to the iOS folder of the Gigs app, double-click ```Gigs.xcodeproj``` to start Xcode. In there, click "Run" to start the simulator and open the app.
