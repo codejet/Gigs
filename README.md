@@ -17,13 +17,23 @@ Please check the requirements [listed](http://facebook.github.io/react-native/do
 
 ## For iOS
 
-You need to have Xcode installed. Then go to the iOS folder of the Gigs app, double-click ```Gigs.xcodeproj``` to start Xcode. In there, click "Run" to start the simulator and open the app.
+You need to have Xcode installed. Then, inside the Gigs folder, run
+
+```
+react-native run-ios
+```
 
 ## For Android
 
 Developing for Android requires a bit more preparation. The [React Native site](http://facebook.github.io/react-native/docs/getting-started.html#requirements) has infos on what you need to do.
 
 I use [Genymotion](https://www.genymotion.com) for Android testing since I had issues when trying to work with virtual devices of Android Studio.
+
+Once you have setup everything, inside the Gigs folder, run:
+
+```
+react-native run-android
+```
 
 ## Tests
 
