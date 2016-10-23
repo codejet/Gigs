@@ -9,10 +9,10 @@ Please check the requirements [listed](http://facebook.github.io/react-native/do
 ## Setup
 
 1. Clone repository
-2. Install dependencies:
+2. Install dependencies using npm or yarn:
 
 	```
-	npm install
+	npm install / yarn install --pure-lockfile
 	```
 
 ## For iOS
