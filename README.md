@@ -1,6 +1,6 @@
 # Gigs
 
-This is a very simple [React Native](https://github.com/facebook/react-native) test app for iOS. It allows you to search for upcoming gigs of an artist. The data for this is coming from from the [Bandsintown API](https://www.bandsintown.com/api/overview).
+This is a very simple [React Native](https://github.com/facebook/react-native) test app for iOS and Android. It allows you to search for upcoming gigs of an artist. The data for this is coming from from the [Bandsintown API](https://www.bandsintown.com/api/overview).
 
 ## Requirements
 
