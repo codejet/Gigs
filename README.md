@@ -12,7 +12,13 @@ Please check the requirements [listed](http://facebook.github.io/react-native/do
 2. Install dependencies using npm or yarn:
 
 	```
-	npm install / yarn install --pure-lockfile
+	npm install
+	```
+
+	or
+
+	```
+	yarn install --pure-lockfile
 	```
 
 ## For iOS
