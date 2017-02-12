@@ -29,6 +29,8 @@ You need to have Xcode installed. Then, inside the Gigs folder, run
 react-native run-ios
 ```
 
+Note: it seems like there can be an issue with a setting in Xcode 8 which prevents building the project. So if you get any build errors, follow the advice in this [comment](https://github.com/facebook/react-native/issues/8584#issuecomment-236366222) on a related issue that was openend on React Native's Github repo.
+
 ## For Android
 
 Developing for Android requires a bit more preparation. The [React Native site](http://facebook.github.io/react-native/docs/getting-started.html#requirements) has infos on what you need to do.
