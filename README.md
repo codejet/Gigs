@@ -43,7 +43,7 @@ react-native run-android
 
 ## Tests
 
-Setting up [Jest](http://facebook.github.io/jest/) for a React Native project seems to be a bit tricky (though that might have changed by now). There is an issue on Github that helped me getting it to work: https://github.com/facebook/react-native/issues/700 (hat tip to [naoufal](https://github.com/naoufal)).
+Setting up [Jest](http://facebook.github.io/jest/) for a React Native project seemed to be a bit tricky (though that might have changed in the meantime). There is an issue on Github that helped me getting it to work: https://github.com/facebook/react-native/issues/700 (hat tip to [naoufal](https://github.com/naoufal)).
 
 To run the tests:
 

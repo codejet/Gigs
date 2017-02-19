@@ -45,15 +45,15 @@ export default class Search extends Component {
        }));
   }
 
-  handleSearchTextChange = (event) => {
+  handleSearchTextChange(event) {
     this.setState({ searchString: event.nativeEvent.text });
   }
 
-  handleSearchPress = () => {
+  handleSearchPress() {
     const queryUrl = this.getQueryUrl(this.state.searchString);
 
     this.executeQuery(queryUrl);
-  };
+  }
 
   render() {
     const { message, searchString } = this.state;
@@ -84,11 +84,11 @@ export default class Search extends Component {
                 style={searchInput}
                 value={searchString}
                 underlineColorAndroid={'transparent'}
-                onChange={this.handleSearchTextChange}
+                onChange={event => this.handleSearchTextChange(event)}
                 placeholder='artist name'
               />
             </View>
-            <TouchableHighlight style={button} underlayColor="#99d9f4" onPress={this.handleSearchPress}>
+            <TouchableHighlight style={button} underlayColor="#99d9f4" onPress={() => this.handleSearchPress()}>
               <Text style={buttonText}>Go</Text>
             </TouchableHighlight>
           </View>
