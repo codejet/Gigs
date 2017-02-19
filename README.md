@@ -35,8 +35,6 @@ Note: it seems like there can be an issue with a setting in Xcode 8 which preven
 
 Developing for Android requires a bit more preparation. The [React Native site](http://facebook.github.io/react-native/docs/getting-started.html#requirements) has infos on what you need to do.
 
-I use [Genymotion](https://www.genymotion.com) for Android testing since I had issues when trying to work with virtual devices of Android Studio.
-
 Once you have setup everything, inside the Gigs folder, run:
 
 ```
